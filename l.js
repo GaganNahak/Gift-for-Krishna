@@ -3,7 +3,7 @@ let no = document.getElementById( "no" )
 let ne = document.createElement( "div" )
 let content = document.getElementById( "content" )
 content.prepend( ne )
-ne.innerText="Please select Yes or No"
+ne.innerText ="Please select yes or No"
 
 yes.addEventListener( "click", () => {
     ne.classList = "ne1"
