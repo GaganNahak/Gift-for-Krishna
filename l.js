@@ -3,7 +3,7 @@ let no = document.getElementById( "no" )
 let ne = document.createElement( "div" )
 let content = document.getElementById( "content" )
 content.prepend( ne )
-
+ne.innerHtml="Please select Yes or No"
 
 yes.addEventListener( "click", () => {
     ne.classList = "ne1"
